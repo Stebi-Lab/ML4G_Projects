@@ -29,6 +29,8 @@ We normalized and log-transformed the data, selected highly variable genes (HVGs
 
 Cell types were assigned to clusters by mapping them to their most frequent cell types in the training set. Finally, we exported the predicted cell-type proportions (pred_props.csv) and cluster labels (cluster_membership.csv) for further analysis, ensuring the outputs met the required validation checks.
 
+Left ground truth with gray beeing test set and Right predictions of clustering model.
+
 ![Cluster Image](./cluster.png)
 
 
