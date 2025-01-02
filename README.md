@@ -23,7 +23,11 @@ In this project, we developed a machine learning model to predict gene expresion
 
 # Project 2
 
-Clustering of Single cell data with leidenalgorithm. 
+We loaded and preprocessed biological datasets, including bulk expression data and single-cell data, to analyze cell types and their proportions. We implemented a pipeline to estimate gene expression profiles (G) for different cell types using matrix operations. Bulk data was deconvolved into cell-type proportions using Non-Negative Least Squares (NNLS).
+
+We normalized and log-transformed the data, selected highly variable genes (HVGs), and applied batch correction using ComBat. PCA was used to reduce dimensionality, and clustering was performed using the Leiden algorithm. We evaluated clustering quality using metrics like Adjusted Rand Index (ARI) and V-measure.
+
+Cell types were assigned to clusters by mapping them to their most frequent cell types in the training set. Finally, we exported the predicted cell-type proportions (pred_props.csv) and cluster labels (cluster_membership.csv) for further analysis, ensuring the outputs met the required validation checks.
 
 ![Cluster Image](./cluster.png)
 
