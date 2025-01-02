@@ -1,0 +1,72 @@
+# Common sequence and genomic data
+*.fasta
+*.fa
+*.fna
+*.ffn
+*.faa
+*.frn
+*.fastq
+*.fq
+*.sam
+*.bam
+*.bai
+*.vcf
+*.bcf
+*.h5ad
+*.bw
+
+# Alignment and annotation files
+*.aln
+*.maf
+*.gff
+*.gff3
+*.gtf
+*.bed
+*.wig
+*.bigWig
+*.psl
+
+# Phylogenetic data
+*.nwk
+*.dnd
+*.tree
+*.tre
+
+# Structural biology
+*.pdb
+*.ent
+*.cif
+*.mmcif
+*.mmtf
+
+# Other data formats
+*.h5
+*.hdf5
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.txt
+
+# Compressed files (common for large datasets)
+*.gz
+*.zip
+*.bz2
+*.tar
+*.tgz
+*.7z
+*.rar
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Software-specific
+.RData
+.Rhistory
+.Rproj.user/
+*.ipynb_checkpoints/
